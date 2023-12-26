@@ -8,8 +8,11 @@ function App() {
     console.log("teddy" + count);
     // count= count+1;
     if (count < 20) {
-      count = count + 1;
-      setCount(count);
+      setCount(preCount => preCount +1);
+      setCount(preCount => preCount +1);
+      setCount(preCount => preCount +1);
+      setCount(preCount => preCount +1);
+      
     }
   };
   const removeValue = () => {
